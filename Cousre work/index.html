@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/68af338604.js" crossorigin="anonymous"></script>
+</head>
+<body>
+        <div id="header">
+            <div class="container">
+                <nav>
+                    <img src="images" alt="logo" class="logo">
+                    <ul id="sidemenu">
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About Me</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <i class="fas fa-times" onclick="closemenu()"></i>
+                    </ul> 
+                    <i class="fas fa-bars" onclick="openmenu()"></i>
+                    
+                </nav> 
+                <div class="header-text">
+                    <p>Web Developer</p>
+                    <h1>Hi, I'm Mugambagye Phillip</h1>
+                </div>  
+            </div>
+        </div>
+    <!----about--->
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                <div class="about-col-1">
+                    <img src="images/phillip.jpg" width="350px" height="400px" alt="phillip">
+                </div> 
+                
+                <div class="about-col-2">
+                        <h1 class="subtitle">About Me</h1>
+                        <p>Am a student at Multiitech Business School pursuing a bachelors degree in Information Technology aiming to become a top tire web developer and develop good quality websites
+                            Am currently mastering front-end development and aiming to become a full stack developer.<br> I want to bring digital visions to life, create websites that are not only visually appealing but also functional and secure.
+                        <p>I am a free spirited person with a great sense of humor and aim to develop websites that will change the world </p> 
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        </div> 
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>UI/UX</span><br>Designing Web interfaces using figma</li>
+                                <li><span>Web Development</span><br>Web app development</li>
+                                <li><span>Cloud Computing</span><br>Deploying client user data on the cloud</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>Present</span><br>Multitech Business School</li>
+                                <li><span>2019</span><br>Kasubi Secondary School</li>
+                                <li><span>2017</span><br>Kasubi Secondary School</li>
+                            </ul>
+                        </div> 
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>Present</span><br>Bootcamp at Super Simple Dev</li>
+                                <li><span>05/06/2023</span><br>Training at Free Code Camp</li>
+                                <li><span>17/03/2022</span><br>Training at Coursera</li>
+                            </ul>
+                        </div> 
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    <!--services--->
+        <div id="services">
+            <div class="container">
+                <h1 class="subtitle">Services</h1>
+                <div class="services-list">
+                    <div>
+                        <i class="fa-solid fa-code"></i>
+                        <h2>Web Design</h2>
+                        <P>Web designing is the process of planning, conceptualizing, and implementing the plan for designing a website in a way that is functional and offers a good user experience. User experience is central to the web designing process.</P>
+                        <a href="https://www.simplilearn.com/what-is-web-designing-article">Learn more</a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-crop"></i>
+                        <h2>UI/UX</h2>
+                        <P>"UI" stands for user interface, and "UX" stands for user experience. A UI/UX designer is responsible for both the look and feel of a product, as well as the experience a user has while using it.</P>
+                        <a href="https://careerfoundry.com/en/blog/ux-design/the-difference-between-ux-and-ui-design-a-laymans-guide/">Learn more</a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-globe"></i>
+                        <h2>Networking</h2>
+                        <P>Networking, also known as computer networking, is the practice of transporting and exchanging data between nodes over a shared medium in an information system</P>
+                        <a href="https://www.techtarget.com/searchnetworking/definition/networking">Learn more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+     <!----projects-->
+        <div id="projects">
+            <div class="container">
+                <h1 class="subtitle">My Projects</h1>
+                <div class="project-list">
+                    <div class="project">
+                        <img src="images/work1.png">
+                        <div class="layer">
+                            <h3>Youtube clone</h3>
+                            <p>This website has developed by me while learning about the fundamental use of HTML and CSS</p>
+                            <a href="#"><i class="fa-solid fa-cloud-arrow-up"></i></a>
+                        </div>
+                    </div>
+                    <div class="project">
+                        <img src="images/work2.png">
+                        <div class="layer">
+                            <h3>Portfolio using HTML</h3>
+                            <p>This website has developed by me while learning about the fundamental use of HTML</p>
+                            <a href="https://phillipklaus.github.io/phillipklaus.alpha/"><i class="fa-solid fa-cloud-arrow-up"></i></a>
+                        </div>
+                    </div>
+                    <div class="project">
+                        <img src="images/work3.png">
+                        <div class="layer">
+                            <h3>Laptop Business</h3>
+                            <p>This website has developed by me and my colleagues for Winbond It Solutions to create an online market for their goods and services</p>
+                            <a href="https://phillipklaus.github.io/phillip.bashir.george/"><i class="fa-solid fa-cloud-arrow-up"></i></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+     <!-----contact-->
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="subtitle">Contact Me</h1>
+                        <p><i class="fa-regular fa-paper-plane"></i>phillipmugambagye@gmail.com</p>
+                        <p> <i class="fa-solid fa-phone"></i>070164376</p>
+                        <div class="social-icons">
+                            <a href="https://m.facebook.com/phillip.mugambagye"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="https://twitter.com/Phillipklaus6"><i class="fa-brands fa-x-twitter"></i></a>
+                            <a href="https://www.instagram.com/phillip11199/?hl=en"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="https://github.com/phillipklaus/"><i class="fa-brands fa-github"></i></a>
+                        </div>
+                    </div>
+                    <div class="contact right">
+                        <form action= "https://formsubmit.co/phillipmugambagye@gmail.com" method = "post">
+                            <input type="text" name="Name" placeholder="Your name" required>
+                            <input type="email" name="Email" placeholder="Your Email" required>
+                            <textarea name="Message" rows="4" placeholder="Your message"></textarea>
+                            <button type="submit" class="btn btn2">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>Made by Mugambagye Phillip</p>
+            </div>
+        </div>
+        <div class="go-to">
+            <a href="#"><i class="fa-solid fa-arrow-up"></i></a>
+        </div>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links")
+        var tabcontents = document.getElementsByClassName("tab-contents")
+        function opentab(tabname){
+            for (tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var sidemeu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemeu.style.right ="0";
+        }
+        function closemenu(){ 
+            sidemeu.style.right ="-200px";
+        }
+    </script>
+</body>
+</html>
